@@ -3,8 +3,10 @@
         <title>Welcom Page</title>
     </head>
     <body>
-        <div>Welcom ${name}</div>
-        <div>Your Name: ${name}</div>
-        <div><a href="list-todos">Manage</a> your todos</div>
+        <div class="container">
+            <h1>Welcom ${name}</h1>
+            <hr>
+            <a href="list-todos">Manage</a> your todos
+        </div>
     </body>
 </html>
